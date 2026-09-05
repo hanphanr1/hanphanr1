@@ -1,114 +1,132 @@
 <div align="center">
 
-<sub>BUILD QUIETLY · THINK DEEPLY · LET THE CODE SPEAK</sub>
+<sub>BEHIND EVERY CLEAN OUTPUT IS A SYSTEM THAT HANDLED THE MESS.</sub>
 
 # T P T T H
 
-**`hanphanr1`** &nbsp; / &nbsp; automation · bots · web experiments
+**AUTOMATION TOOLING · CHECKER SYSTEMS · PROXY WORKFLOWS**
 
-*Some people see repetition. I see a script that hasn't been written yet.*
+`hanphanr1` &nbsp; // &nbsp; Python first. Terminal driven.
 
 <br>
 
-<a href="https://github.com/hanphanr1?tab=repositories"><img alt="Explore repositories" src="https://img.shields.io/badge/EXPLORE_THE_SOURCE-161b22?style=for-the-badge&logo=github&logoColor=c9d1d9"></a>
-<a href="https://github.com/hanphanr1/portfolio-3d"><img alt="3D portfolio repository" src="https://img.shields.io/badge/ENTER_THE_PORTFOLIO-161b22?style=for-the-badge&logo=threedotjs&logoColor=c9d1d9"></a>
+### I don't just send requests.<br>I build what happens before, between, and after them.
+
+<br>
+
+<img alt="Python" src="https://img.shields.io/badge/PYTHON-0d1117?style=for-the-badge&logo=python&logoColor=58a6ff">
+<img alt="HTTP and sessions" src="https://img.shields.io/badge/HTTP_%2F_SESSIONS-0d1117?style=for-the-badge&logoColor=58a6ff">
+<img alt="Concurrency" src="https://img.shields.io/badge/CONCURRENCY-0d1117?style=for-the-badge&logoColor=58a6ff">
+<img alt="Telegram bots" src="https://img.shields.io/badge/TELEGRAM_BOTS-0d1117?style=for-the-badge&logo=telegram&logoColor=58a6ff">
 
 </div>
 
 <br>
 
 ```text
-┌─ hanphanr1@workbench ~
+┌─ tptth@workbench
 │
-├─ identity    TPTTH
-├─ focus       Python tooling / HTTP workflows / automation
-├─ interface   terminals, bots, and the occasional 3D universe
-└─ principle   understand the process. remove the repetition.
+├── core       Python / HTTP / sessions / concurrency
+├── tooling    service checkers / proxy utilities / task bots
+├── processing OCR / parsing / filtering / deduplication
+└── output     classified results, not a wall of raw responses
 ```
 
-## `01` &nbsp; Behind the terminal
+## `01 / THE WORK`
 
-I build tools for the work that shouldn't need a hundred clicks.
+**Give me a repetitive workflow. I'll turn it into a tool.**
 
-My work moves between **Python utilities, API integrations, proxy-aware workflows, browser automation, and Telegram bots**. I like taking a messy sequence of requests, decisions, and repeated actions—and turning it into something I can run, inspect, and improve.
+I build Python-based service checkers and automation utilities around the parts that make a job more than a single request: **session state, proxy selection, response interpretation, worker coordination, retries, and usable output**.
 
-Not everything lives in a terminal. I also experiment with **browser userscripts, interactive web projects, and dark 3D interfaces**.
+The work spans **subscription services, AI tools, CAPTCHA providers, proxy platforms, and infrastructure accounts**. Different services, different response formats, different edge cases—the same need to turn noisy inputs into understandable results.
 
-> The interface can be quiet. The work behind it doesn't have to be simple.
+My focus isn't a page someone clicks through. It's the tooling doing the work underneath.
 
-## `02` &nbsp; What I work on
+## `02 / WHAT I BUILD`
 
-| Area | In practice |
+### `>` Service checkers that read beyond the status code
+
+- Handle cookie-backed sessions and API-key validation in service-specific workflows.
+- Parse account state, subscription details, plan labels, and available infrastructure metadata.
+- Classify responses and export categorized results instead of treating every HTTP `200` as success.
+
+### `>` Proxy-aware execution
+
+- Integrate proxy pools into request workflows.
+- Retrieve paginated proxy inventories from providers and export them into usable formats.
+- Combine session handling, retries, and request pacing around service-specific behavior.
+
+### `>` Workers, queues, and batch pipelines
+
+- Use `ThreadPoolExecutor` for concurrent checking tasks and `asyncio` for asynchronous workflows.
+- Coordinate queued jobs, process batches, and surface execution progress.
+- Filter and deduplicate text data before it becomes downstream noise.
+
+### `>` CAPTCHA & image-processing tooling
+
+- Work with CAPTCHA-service integrations and API-key checks.
+- Connect OCR and image-processing components using `ddddocr`, `Pillow`, and `onnxruntime`.
+- Integrate solver pools into automated task flows.
+
+### `>` Telegram-operated utilities
+
+- Build bot workflows with `Telethon`, event handlers, and job queues.
+- Connect chat commands to processing tasks rather than stopping at canned replies.
+- Run text-processing and deduplication utilities behind a conversational control interface.
+
+## `03 / INSIDE THE TOOLCHAIN`
+
+| Layer | Tools & mechanisms |
 | :--- | :--- |
-| **Automation & tooling** | Python CLIs, batch processing, structured output, and repeatable workflows. |
-| **HTTP & API integrations** | Session handling, response parsing, retries, and service-specific integrations. |
-| **Proxy-aware workflows** | Proxy handling, provider integrations, retrieval, and export utilities. |
-| **Concurrency** | Thread pools, asynchronous tasks, queues, and progress reporting. |
-| **Bots & browser automation** | Telegram utilities, browser-driven tasks, and userscripts. |
-| **Web experiments** | 3D portfolio work, interactive pages, and dark visual design. |
+| **Primary language** | Python |
+| **HTTP clients** | `requests` · `curl_cffi` |
+| **Concurrent execution** | `ThreadPoolExecutor` · `threading` · `asyncio` |
+| **Bot control** | `Telethon` · event handlers · queued jobs |
+| **Image processing** | `Pillow` · `onnxruntime` · `ddddocr` |
+| **Supporting runtime** | Node.js · HTTP/HTTPS modules · proxy agents |
+| **CLI & output** | `argparse` · `colorama` · progress reporting · categorized exports |
 
-## `03` &nbsp; Tools on the workbench
+## `04 / THE PART THAT MATTERS`
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=c9d1d9">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=c9d1d9">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=c9d1d9">
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-161b22?style=flat-square&logo=html5&logoColor=c9d1d9">
-  <img alt="CSS" src="https://img.shields.io/badge/CSS-161b22?style=flat-square&logo=css&logoColor=c9d1d9">
-</p>
+**Sending a request is the easy part. Knowing what happened is the work.**
+
+A response can be successful at the transport layer and still be useless to the task. A batch can finish and still leave unreadable output. More workers can mean more noise—not better execution.
+
+That's where I put the attention:
 
 ```text
-HTTP          requests · curl_cffi
-AUTOMATION    DrissionPage · Telethon
-EXECUTION     asyncio · ThreadPoolExecutor · Node.js
-VISUALS       Three.js · HTML · CSS
+SESSION STATE       before the request
+PROXY HANDLING      around the connection
+RESPONSE PARSING    beyond the status code
+RETRY & PACING      between attempts
+CLASSIFICATION      before the export
+READABLE OUTPUT     at the end of the run
 ```
 
-<sub>A working stack, not a collection of proficiency percentages.</sub>
+> Not just “does it run?” — “can I tell what it actually did?”
 
-## `04` &nbsp; Selected signals
-
-### [YouTube AdBlock Userscript](https://github.com/hanphanr1/-TPTTH-AdBlock-YouTube)
-A Tampermonkey userscript targeting YouTube pre-roll, mid-roll, banner, and overlay ads, with a grid-gap fix.
-
-**`JavaScript`** &nbsp; **`Tampermonkey`** &nbsp; **`Browser tooling`**
-
-### [3D Portfolio](https://github.com/hanphanr1/portfolio-3d)
-A personal 3D portfolio built around Three.js and a dark-tech aesthetic. The visual side of the workbench.
-
-**`Three.js`** &nbsp; **`Web`** &nbsp; **`Dark aesthetic`**
-
-### [Solar System](https://github.com/hanphanr1/solar_system)
-A solar-system exploration project. A different scale to think in.
-
-**`Web experiment`** &nbsp; **`Space`**
-
-### [Lucky Wheel](https://github.com/hanphanr1/lucky-wheel)
-A lucky-wheel web project. Not every experiment needs to be serious.
-
-**`Web experiment`** &nbsp; **`Interactive`**
-
-<p align="right">
-  <a href="https://github.com/hanphanr1?tab=repositories">More in the source ↗</a>
-</p>
-
-## `05` &nbsp; Operating principles
+## `05 / OPERATING PRINCIPLES`
 
 ```text
-Read the response, not just the status code.
-Make failures visible before making execution faster.
-Automate the repetition. Keep the judgment.
-Build something useful. Then make it quieter.
+01   Understand the workflow before automating it.
+02   Parse the evidence. Don't guess from a status code.
+03   Make failures visible before adding more workers.
+04   Keep the output useful, not just verbose.
+05   Automate repetition. Keep judgment human.
 ```
 
 <br>
 
----
-
 <div align="center">
 
-*Less noise. More intent.*
+<a href="https://github.com/hanphanr1?tab=repositories"><img alt="Explore public repositories" src="https://img.shields.io/badge/READ_THE_SOURCE-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff"></a>
 
-<sub>TPTTH &nbsp; / &nbsp; <a href="https://github.com/hanphanr1">@hanphanr1</a></sub>
+<br><br>
+
+---
+
+**Quiet terminal. Heavy lifting.**
+
+<sub>TPTTH &nbsp; // &nbsp; <a href="https://github.com/hanphanr1">@hanphanr1</a></sub>
 
 </div>
